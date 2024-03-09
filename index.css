@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.bothead{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 9px;
+}
+.bot1{
+    border: 1px solid #ff0000;
+    border-radius: 20px;
+    padding: 15px 50px;
+    color: #ff0000;
+}
+.bot2{
+    border: 1px solid #ff0000;
+    border-radius: 20px;
+    padding: 15px 50px;
+    color: #ffffff;
+    background-color: #ff0000;
+}
+.general{
+    display: flex;
+    place-content: center;
+    margin: 0px 10px;
+    padding-bottom: 40px;
+    position: relative;
+    background-color: linear-gradient(90deg, #000, #4a4a4a );
+}
+.im{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.financiero{
+    z-index: 0;
+}
+.musical{
+    z-index: 0;
+}
+.moto{
+    z-index: 2;
+}
+.bicicleta{
+    z-index: 1;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 400px 10px 0px 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    z-index: 5;
+    color: #ffffff;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 22px;
+}
+.boton{
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.texto{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.linea{
+    border-left: 1px  solid #ffffff50;
+    border-right: 1px  solid #ffffff50;
+}
+.bott1:hover .musical{
+    z-index: 4;
+}
